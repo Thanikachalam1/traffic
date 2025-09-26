@@ -287,8 +287,8 @@ export default function SmartTrafficDashboard() {
     <div style={s.page}>
       <div style={s.header}>
         <div>
-          <h1 style={s.title}>🚦 Smart Traffic Dashboard</h1>
-          <div style={s.subtitle}>4-way filter lights • heatmap area • road-like heat display</div>
+          <h1 style={s.title}>Smart Traffic Dashboard</h1>
+          <div style={s.subtitle}></div>
         </div>
       </div>
 
@@ -297,7 +297,7 @@ export default function SmartTrafficDashboard() {
           <h3 style={{ marginTop: 0 }}>Controls</h3>
 
           <div style={{ marginBottom: 12 }}>
-            <div style={{ marginBottom: 8, fontSize: 13, color: "#444" }}>Provide 4 inputs (image or video) — one per approach:</div>
+            
 
             <label style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: 8 }}>
               <div style={{ width: 44, fontWeight: 800 }}>N</div>
